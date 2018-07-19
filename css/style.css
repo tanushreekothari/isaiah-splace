@@ -18,6 +18,8 @@ html, body{
 	text-align: center;
 }
 
+
+
 h4, h5, h6,
 h1, h2, h3 {
 margin: 0;
@@ -722,6 +724,39 @@ background:#f7f7f7;
     box-shadow: none;
     background: url(../images/icon1.png) no-repeat center;
 }
+
+.hi-icon-effect-7 .hi-icon.icon10 {
+    width: 92px;
+    height: 92px;
+    box-shadow: none;
+    background: url(../images/facebook.png) no-repeat center;
+}
+.hi-icon-effect-7 .hi-icon.icon11 {
+    width: 92px;
+    height: 92px;
+    box-shadow: none;
+    background: url(../images/twitter.png) no-repeat center;
+}
+.hi-icon-effect-7 .hi-icon.icon12 {
+    width: 92px;
+    height: 92px;
+    box-shadow: none;
+    background: url(../images/insta.png) no-repeat center;
+}
+.hi-icon-effect-7 .hi-icon.icon13 {
+    width: 92px;
+    height: 92px;
+    box-shadow: none;
+    background: url(../images/linkedin.png) no-repeat center;
+}
+.hi-icon-effect-7 .hi-icon.icon14 {
+    width: 92px;
+    height: 92px;
+    box-shadow: none;
+    background: url(../images/calendar.jpg) no-repeat center;
+}
+
+
 .hi-icon-effect-4 .hi-icon.icon2 {
     width: 92px;
     height: 92px;
@@ -1396,7 +1431,7 @@ figure.effect-jazz:hover h4 {
 .header-nav {
     background: rgba(165, 165, 165, 0.57);
     padding: 38px 0;
-    width: 120%;
+    width: 95%;
 }
 .navbar-nav {
     float: left;
@@ -2268,4 +2303,12 @@ div#donation {
 		min-height: 413px;
 		background-size: 255% !important;
 	}
+}
+
+.flex-container1 {
+  display: flex;
+  justify-content: space-between;
+}
+.flex-container1 > div {
+  flex: 1; /*grow*/
 }
